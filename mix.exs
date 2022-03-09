@@ -52,7 +52,7 @@ defmodule Absinthe.Phoenix.Mixfile do
   defp deps do
     [
       {:absinthe_plug, github: "Tanbits/absinthe_plug"},
-      {:absinthe, "~> 1.5"},
+      {:absinthe, github: "Tanbits/absinthe"},
       {:decimal, "~> 2.0"},
       {:phoenix, "~> 1.6"},
       {:phoenix_pubsub, "~> 2.0"},
